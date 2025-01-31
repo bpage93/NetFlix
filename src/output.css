@@ -521,32 +521,14 @@
   }
 }
 @layer utilities {
-  .collapse {
-    visibility: collapse;
-  }
-  .relative {
-    position: relative;
-  }
   .m-4 {
     margin: calc(var(--spacing) * 4);
   }
   .mt-50 {
     margin-top: calc(var(--spacing) * 50);
   }
-  .block {
-    display: block;
-  }
   .flex {
     display: flex;
-  }
-  .inline-flex {
-    display: inline-flex;
-  }
-  .list-item {
-    display: list-item;
-  }
-  .table {
-    display: table;
   }
   .h-\[100px\] {
     height: 100px;
@@ -559,15 +541,6 @@
   }
   .flex-auto {
     flex: auto;
-  }
-  .border-collapse {
-    border-collapse: collapse;
-  }
-  .transform {
-    transform: var(--tw-rotate-x) var(--tw-rotate-y) var(--tw-rotate-z) var(--tw-skew-x) var(--tw-skew-y);
-  }
-  .resize {
-    resize: both;
   }
   .flex-col {
     flex-direction: column;
@@ -604,10 +577,6 @@
     border-top-right-radius: var(--radius-md);
     border-bottom-right-radius: var(--radius-md);
   }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
-  }
   .border-2 {
     border-style: var(--tw-border-style);
     border-width: 2px;
@@ -622,35 +591,17 @@
   .border-white {
     border-color: var(--color-white);
   }
-  .bg-\[ur\] {
-    background-color: ur;
-  }
-  .bg-\[url\] {
-    background-color: url;
-  }
   .bg-amber-50 {
     background-color: var(--color-amber-50);
   }
   .bg-red-600 {
     background-color: var(--color-red-600);
   }
-  .bg-\[url\(\.\.\/images\/NetFilx-Background\.jpg\)\] {
-    background-image: url(../images/NetFilx-Background.jpg);
-  }
-  .bg-\[url\(\/images\/NetFilx-Background\.jpg\)\] {
-    background-image: url(/images/NetFilx-Background.jpg);
-  }
-  .bg-\[url\(NetFilx-Background\.jpg\)\] {
-    background-image: url(NetFilx-Background.jpg);
-  }
-  .bg-\[url\(images\/NetFilx-Background\.jpg\)\] {
-    background-image: url(images/NetFilx-Background.jpg);
+  .bg-\[url\(netfilx-background\.jpg\)\] {
+    background-image: url(netfilx-background.jpg);
   }
   .p-6 {
     padding: calc(var(--spacing) * 6);
-  }
-  .p-\[50px\] {
-    padding: 50px;
   }
   .px-\[14px\] {
     padding-inline: 14px;
@@ -661,21 +612,6 @@
   .px-\[50px\] {
     padding-inline: 50px;
   }
-  .py-\[1px\] {
-    padding-block: 1px;
-  }
-  .py-\[20px\] {
-    padding-block: 20px;
-  }
-  .py-\[30px\] {
-    padding-block: 30px;
-  }
-  .py-\[50px\] {
-    padding-block: 50px;
-  }
-  .py-\[100px\] {
-    padding-block: 100px;
-  }
   .py-\[10px\] {
     padding-block: 10px;
   }
@@ -684,36 +620,6 @@
   }
   .py-\[16px\] {
     padding-block: 16px;
-  }
-  .pr-\[9px\] {
-    padding-right: 9px;
-  }
-  .pr-\[20\] {
-    padding-right: 20;
-  }
-  .pr-\[20px\] {
-    padding-right: 20px;
-  }
-  .pr-\[50px\] {
-    padding-right: 50px;
-  }
-  .pr-\[70px\] {
-    padding-right: 70px;
-  }
-  .pr-\[80px\] {
-    padding-right: 80px;
-  }
-  .pr-\[90px\] {
-    padding-right: 90px;
-  }
-  .pr-\[100px\] {
-    padding-right: 100px;
-  }
-  .pr-\[120px\] {
-    padding-right: 120px;
-  }
-  .pr-\[200px\] {
-    padding-right: 200px;
   }
   .pr-\[300px\] {
     padding-right: 300px;
@@ -743,13 +649,6 @@
   .text-white {
     color: var(--color-white);
   }
-  .underline {
-    text-decoration-line: underline;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
-  }
 }
 @keyframes spin {
   to {
@@ -777,31 +676,6 @@
     animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
 }
-@property --tw-rotate-x {
-  syntax: "*";
-  inherits: false;
-  initial-value: rotateX(0);
-}
-@property --tw-rotate-y {
-  syntax: "*";
-  inherits: false;
-  initial-value: rotateY(0);
-}
-@property --tw-rotate-z {
-  syntax: "*";
-  inherits: false;
-  initial-value: rotateZ(0);
-}
-@property --tw-skew-x {
-  syntax: "*";
-  inherits: false;
-  initial-value: skewX(0);
-}
-@property --tw-skew-y {
-  syntax: "*";
-  inherits: false;
-  initial-value: skewY(0);
-}
 @property --tw-border-style {
   syntax: "*";
   inherits: false;
@@ -810,9 +684,4 @@
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
-}
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
 }
