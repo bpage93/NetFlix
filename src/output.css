@@ -677,6 +677,9 @@
   .my-40 {
     margin-block: calc(var(--spacing) * 40);
   }
+  .my-\[500px\] {
+    margin-block: 500px;
+  }
   .my-\[50\] {
     margin-block: 50;
   }
@@ -694,9 +697,6 @@
   }
   .my-\[350px\] {
     margin-block: 350px;
-  }
-  .my-\[500px\] {
-    margin-block: 500px;
   }
   .my-\[px\] {
     margin-block: px;
@@ -777,6 +777,12 @@
   .h-\[20px\] {
     height: 20px;
   }
+  .h-\[50\] {
+    height: 50;
+  }
+  .h-\[50px\] {
+    height: 50px;
+  }
   .h-\[100\] {
     height: 100;
   }
@@ -794,12 +800,6 @@
   }
   .h-\[500px\] {
     height: 500px;
-  }
-  .h-\[50\] {
-    height: 50;
-  }
-  .h-\[50px\] {
-    height: 50px;
   }
   .h-auto {
     height: auto;
@@ -876,9 +876,6 @@
   .w-96 {
     width: calc(var(--spacing) * 96);
   }
-  .w-\[20\] {
-    width: 20;
-  }
   .w-\[20px\] {
     width: 20px;
   }
@@ -896,6 +893,9 @@
   }
   .w-\[200x\] {
     width: 200x;
+  }
+  .w-\[20\] {
+    width: 20;
   }
   .w-\[300px\] {
     width: 300px;
@@ -969,6 +969,15 @@
   .basis-\[20vh\] {
     flex-basis: 20vh;
   }
+  .basis-\[500px\] {
+    flex-basis: 500px;
+  }
+  .basis-\[50\] {
+    flex-basis: 50;
+  }
+  .basis-\[50px\] {
+    flex-basis: 50px;
+  }
   .basis-\[50ssvh\] {
     flex-basis: 50ssvh;
   }
@@ -980,15 +989,6 @@
   }
   .basis-\[100px\] {
     flex-basis: 100px;
-  }
-  .basis-\[500px\] {
-    flex-basis: 500px;
-  }
-  .basis-\[50\] {
-    flex-basis: 50;
-  }
-  .basis-\[50px\] {
-    flex-basis: 50px;
   }
   .basis-\[vh\] {
     flex-basis: vh;
@@ -1130,11 +1130,59 @@
   .border-white {
     border-color: var(--color-white);
   }
+  .bg-\[url\'\'\] {
+    background-color: url'';
+  }
+  .bg-\[url\'\(\)\'\] {
+    background-color: url'()';
+  }
+  .bg-\[url\'\(\.\.\/images\/netflix\.png\)\'\] {
+    background-color: url'(../images/netflix.png)';
+  }
+  .bg-\[url\'\(\.\/images\/netflix\.png\)\'\] {
+    background-color: url'(./images/netflix.png)';
+  }
+  .bg-\[url\'\(\.0\/images\/netflix\.png\)\'\] {
+    background-color: url'(.0/images/netflix.png)';
+  }
+  .bg-\[url\'\(\/\)\'\] {
+    background-color: url'(/)';
+  }
+  .bg-\[url\'\(\/images\)\'\] {
+    background-color: url'(/images)';
+  }
+  .bg-\[url\'\(\/images\/\)\'\] {
+    background-color: url'(/images/)';
+  }
+  .bg-\[url\'\(\/images\/me\)\'\] {
+    background-color: url'(/images/me)';
+  }
+  .bg-\[url\'\(\/images\/net\)\'\] {
+    background-color: url'(/images/net)';
+  }
+  .bg-\[url\'\(\/images\/netfl\)\'\] {
+    background-color: url'(/images/netfl)';
+  }
+  .bg-\[url\'\(\/images\/netfli\)\'\] {
+    background-color: url'(/images/netfli)';
+  }
+  .bg-\[url\'\(\/images\/netflix\)\'\] {
+    background-color: url'(/images/netflix)';
+  }
+  .bg-\[url\'\(\/images\/netflix\.\)\'\] {
+    background-color: url'(/images/netflix.)';
+  }
+  .bg-\[url\'\(\/images\/netflix\.png\)\'\] {
+    background-color: url'(/images/netflix.png)';
+  }
   .bg-\[url\/\] {
     background-color: url/;
   }
   .bg-\[url\] {
     background-color: url;
+  }
+  .bg-\[url\{\}\] {
+    background-color: url{};
   }
   .bg-amber-50 {
     background-color: var(--color-amber-50);
@@ -1307,6 +1355,18 @@
   .py-8 {
     padding-block: calc(var(--spacing) * 8);
   }
+  .py-\[2px\] {
+    padding-block: 2px;
+  }
+  .py-\[4\] {
+    padding-block: 4;
+  }
+  .py-\[10\] {
+    padding-block: 10;
+  }
+  .py-\[10px\] {
+    padding-block: 10px;
+  }
   .py-\[15\[x\]\] {
     padding-block: 15[x];
   }
@@ -1327,18 +1387,6 @@
   }
   .py-\[24px\] {
     padding-block: 24px;
-  }
-  .py-\[2px\] {
-    padding-block: 2px;
-  }
-  .py-\[4\] {
-    padding-block: 4;
-  }
-  .py-\[10\] {
-    padding-block: 10;
-  }
-  .py-\[10px\] {
-    padding-block: 10px;
   }
   .py-\[32\] {
     padding-block: 32;
