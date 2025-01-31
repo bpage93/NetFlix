@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="./output.css" rel="stylesheet" />
+        <link rel="stylesheet" href="/scss/main.css" />
+        <title>Netflix</title>
+    </head>
+    <body class="flex flex-col min-h-screen">
+        <header class="flex justify-between content-center m-4">
+            <div id="logo">
+                <img
+                    class="flex-auto w-[200px] h-[100px]"
+                    s
+                    src="/images/red-large-netflix-logo.png"
+                    alt=""
+                />
+            </div>
+            <div
+                class="flex justify-center gap-6 p-6 text-white text-[18px] font-bold"
+            >
+                <a href=""
+                    ><button
+                        class="border-2 font-bold border-white px-[50px] py-[10px]"
+                    >
+                        English
+                    </button></a
+                >
+                <a href=""
+                    ><button
+                        class="border-2 font-bold border-red-600 bg-red-600 rounded-sm px-[20px] py-[10px]"
+                    >
+                        Sign In
+                    </button></a
+                >
+            </div>
+        </header>
+        <main
+            class="flex flex-col gap-4 justify-items-center items-center mt-50 text-white"
+        >
+            <h1 class="flex-auto text-5xl font-extrabold">
+                Unlimited movies, TV shows, and more.
+            </h1>
+            <p class="flex-auto text-2xl font-bold">
+                Watch anywhere. Cancel anytime.
+            </p>
+            <p class="flex-auto text-2xl font-bold">
+                Ready to watch? Enter your email to create or restart your
+                membership.
+            </p>
+            <div class="flex">
+                <input
+                    class="flex-auto border-none placeholder:text-grey-600 text-black bg-amber-50 rounded-l-md px-[80px] py-[16px]"
+                    placeholder="Email Address"
+                    type="text"
+                    name="email"
+                    re
+                />
+                <button
+                    class="flex-auto border-none bg-red-600 py-[15px] px-[14px] rounded-r-md text-[18px]"
+                >
+                    Get Started
+                </button>
+            </div>
+        </main>
+    </body>
+</html>
